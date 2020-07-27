@@ -5,18 +5,14 @@
 
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 <div id="container">
   <h1>Tip Calculator</h1>
   <div id="calculator">
-
-
     <form>
       <p>How much was your bill?
         <p>
           &euro; <input id="billamt" type="text" placeholder="Bill Amount">
-
           <p>How was your service?
             <p>
               <select id="serviceQual">
@@ -27,23 +23,15 @@
             <option value="0.1">10&#37; &#45; Bad</option>
             <option value="0.05">5&#37; &#45; Terrible</option>
         </select>
-
     </form>
     <p>How many people are sharing the bill?</p>
     <input id="peopleamt" type="text" placeholder="Number of People"> people
     <button type="button" id="calculate">Calculate!</button>
-
   </div>&euro;
-  <!--calculator end-->
   <div id="totalTip">
-    <sup>&euro;</sup><span id="tip">0.00</span>
-    <small id="each">each</small>
+    <sup>&euro;</sup><span id="tip">0.00</span><small id="each">each</small>
   </div>
-  <!--totalTip end-->
-
 </div>
-<!--container end-->
-
 <script type="text/javascript" src="tipcalculator.js"></script>
  </body>
 </html>
